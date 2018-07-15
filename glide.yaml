@@ -1,0 +1,11 @@
+package: github.com/plpan/parser
+import:
+- package: github.com/modern-go/parse
+  version: master
+  subpackages:
+  - read
+testImport:
+- package: github.com/modern-go/test
+  version: ^1.0.0
+  subpackages:
+  - testify/assert
